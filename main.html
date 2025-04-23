@@ -1,45 +1,55 @@
-<form>
-  <label>Name</label>
-  <input 
-    type="text" 
-    id="name" 
-    name="name" 
-    placeholder="Name" 
-    required 
-  />
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form>
+    <label>Name</label>
+    <input 
+      type="text" 
+      id="name" 
+      name="name" 
+      placeholder="Name" 
+      required 
+    />
 
-  <label>Phone Number</label>
-  <input 
-    type="text" 
-    id="phone" 
-    name="phone" 
-    placeholder="Phone Number" 
-    required 
-  />
+    <label>Phone Number</label>
+    <input 
+      type="text" 
+      id="phone" 
+      name="phone" 
+      placeholder="Phone Number" 
+      required 
+    />
 
-  <label>Address</label>
-  <input 
-    type="text" 
-    id="address" 
-    name="address" 
-    placeholder="Address" 
-    required 
-  />
+    <label>Address</label>
+    <input 
+      type="text" 
+      id="address" 
+      name="address" 
+      placeholder="Address" 
+      required 
+    />
 
-  <label>Have you ever lived with a Dog before?</label>
-  <input 
-    type="checkbox" 
-    id="checkbox" 
-    name="livedWithDog"
-    value="Have you ever lived with a Dog before?" 
-  />
+    <label>Have you ever lived with a Dog before?</label>
+    <input 
+      type="checkbox" 
+      id="checkbox" 
+      name="livedWithDog"
+      value="Have you ever lived with a Dog before?" 
+    />
 
-  <label>Please select your preferred breeds</label>
-  <select multiple id="multiSelect" name="breeds" required>
-    <option value="Breeds1">Breeds1</option>
-    <option value="Breeds2">Breeds2</option>
-    <option value="Breeds3">Breeds3</option>
-  </select>
+    <label>Please select your preferred breeds</label>
+    <select id="multiSelect" multiple name="breeds" required>
+      <option value="Breeds1">Breeds1</option>
+      <option value="Breeds2">Breeds2</option>
+      <option value="Breeds3">Breeds3</option>
+    </select>
 
-  <button type="submit" value="Submit">Submit</button>
-</form>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
